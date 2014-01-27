@@ -1,16 +1,18 @@
 # gulp-absolute
 
-[Gulp](http://gulpjs.com) filter. Reduces a group of files to a single element according to its absolute path
+<a href="http://gulpjs.com" target="_blank">Gulp</a> filter. Reduces a group of files to a single element according to its absolute path
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/gulp-absolute)
+Install with <a href="https://npmjs.org/package/gulp-absolute" target="_blank">npm</a>
 
 ```
 npm install --save-dev gulp-absolute
 ```
 
 ## Example
+
+With a `watch` action, when you just saved a javascript file, `jshint` only this file, not all the package
 
 ```js
 var absolute = require('gulp-absolute');
