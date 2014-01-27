@@ -1,0 +1,25 @@
+{
+  "name": "gulp-absolute",
+  "version": "0.0.1",
+  "description": "Filter files by absolute path",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jeromedecoster/gulp-absolute.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "filter",
+    "absolute",
+    "path"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.0",
+    "map-stream": "~0.1.0"
+  },
+  "author": "jeromedecoster",
+  "license": "MIT"
+}
